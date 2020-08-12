@@ -1,4 +1,4 @@
-# a Tiny project written in Node js + Typescript
+# a Tiny REST API written in Node js + Typescript
 Sample application for creating a REST API with Node js + TypeScript (Model-Controller structure)
 
 This tiny project focus on creating a basic REST API with Node js + TypeScript.
