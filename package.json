@@ -1,0 +1,41 @@
+{
+  "name": "daba-project-api",
+  "version": "0.2.1",
+  "description": "Daba Project Backend RestAPI with NodeJS, ExpressJS, MySQL and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts exec ts-node"
+  },
+  "keywords": [],
+  "author": "Omid Khosrojerdi, Husin Sajjadi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.0",
+    "@types/mysql2": "github:types/mysql2",
+    "@types/ws": "^7.2.5",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.9",
+    "@types/node": "^14.0.14",
+    "@types/socket.io": "^2.1.8",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "es6-shim": "^0.35.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5-typescript": "^1.0.5",
+    "moment": "^2.25.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "reflect-metadata": "^0.1.13",
+    "socket.io": "^2.3.0",
+    "ws": "^7.3.0"
+  }
+}
